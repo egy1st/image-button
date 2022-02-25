@@ -1,0 +1,53 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML>
+<HEAD>
+<META http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<META content="Microsoft FrontPage 5.0" name=GENERATOR>
+<TITLE>AddImageButton</TITLE>
+</HEAD>
+<BODY>
+<font SIZE="2" color="#000080">
+<h1>AddImageButton</h1>
+</font><FONT color=#000080>
+<HR>
+</FONT></H1>
+<P>Assign icons for every button state , when mouse over , mouse down , mouse up </P>
+<P><FONT color=#000080><STRONG>Syntax:</STRONG></FONT></P><FONT color=#0000ff>
+<P></FONT><FONT color=#000000>Public </FONT>AddImageButton(ByRef ButtonName As 
+Windows.Forms.Button, ByVal img_MouseLeave As String, ByVal img_MouseEnter As 
+String, ByVal img_MouseDown As String)</P>
+<P>where img_MouseLeave parameter is the icon appear where mouse leave button<br>
+and&nbsp;&nbsp;&nbsp; img_MouseEnter&nbsp; parameter&nbsp; is the icon appear 
+where mouse over the button<br>
+and&nbsp;&nbsp;&nbsp; img_MouseDown parameter&nbsp; is the icon appear where 
+mouse pressed<br>
+&nbsp;</P>
+<P><FONT color=#000080><STRONG>Example:</STRONG></FONT></P>
+<p>Dim IB As New DynamicComponents.ImageButton()<br>
+IB.AddImageButton(Me.FirstButton, &quot;first.ico&quot;, &quot;firstover.ico&quot;, 
+&quot;firstdown.ico&quot;)<br>
+<font SIZE="2">
+IB.AddImageButton(</font>Me.PreviousButton, &quot;previous.ico&quot;, 
+&quot;previousover.ico&quot;, &quot;previousdown.ico&quot;)<br>
+<font SIZE="2">
+IB.AddImageButton(</font>Me.NextButton, &quot;next.ico&quot;, &quot;nextover.ico&quot;, 
+&quot;nextdown.ico&quot;)<br>
+<font SIZE="2">
+IB.AddImageButton(</font>Me.LastButton, &quot;last.ico&quot;, &quot;lastover.ico&quot;, 
+&quot;lastdown.ico&quot;)</p>
+<p dir="ltr">&nbsp;</p>
+<ul>
+  <li dir="ltr">
+  <p dir="ltr"><font color="#000080">Buttons without Motion</font></li>
+</ul>
+<p>
+<img border="0" src="file:///G:/Programms%20on%20D/Image%20Button/Help/ImageButtons.gif" width="480" height="64">&nbsp;&nbsp;&nbsp;
+</p>
+<ul>
+  <li><font color="#000080">Buttons with Motion</font></li>
+</ul>
+<p>
+<img border="0" src="file:///G:/Programms%20on%20D/Image%20Button/Help/ImageButtons2.gif" width="476" height="52"></p>
+<p>&nbsp;</p>
+</BODY>
+</HTML>

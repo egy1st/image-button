@@ -1,0 +1,271 @@
+Hi Mohamed,
+
+ 
+
+Here are the details, I haven’t tried Form Flipper so far:
+
+ 
+
+System.InvalidOperationException was unhandled
+
+  Message=An error occurred creating the form. See Exception.InnerException for details.  The error is: Retrieving the COM class factory for component with CLSID {73A4C9C1-D68D-11D0-98BF-00A0C90DC8D9} failed due to the following error: 80040154.
+
+  Source=DC-ImageButton Tutorial
+
+  StackTrace:
+
+       at My.MyProject.MyForms.Create__Instance__[T](T Instance) in 17d14f5c-a337-4978-8281-53493378c1071.vb:line 190
+
+       at My.MyProject.MyForms.get_Form1()
+
+       at My.MyApplication.OnCreateMainForm() in C:\Program Files\Dynamic Components\Image Button\Tutorials\Visual studio 2010\My Project\Application.Designer.vb:line 35
+
+       at Microsoft.VisualBasic.ApplicationServices.WindowsFormsApplicationBase.OnRun()
+
+       at Microsoft.VisualBasic.ApplicationServices.WindowsFormsApplicationBase.DoApplicationModel()
+
+       at Microsoft.VisualBasic.ApplicationServices.WindowsFormsApplicationBase.Run(String[] commandLine)
+
+       at My.MyApplication.Main(String[] Args) in 17d14f5c-a337-4978-8281-53493378c1071.vb:line 81
+
+       at System.AppDomain._nExecuteAssembly(Assembly assembly, String[] args)
+
+       at System.AppDomain.ExecuteAssembly(String assemblyFile, Evidence assemblySecurity, String[] args)
+
+       at Microsoft.VisualStudio.HostingProcess.HostProc.RunUsersAssembly()
+
+       at System.Threading.ThreadHelper.ThreadStart_Context(Object state)
+
+       at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+
+       at System.Threading.ThreadHelper.ThreadStart()
+
+  InnerException: System.Runtime.InteropServices.COMException
+
+       Message=Retrieving the COM class factory for component with CLSID {73A4C9C1-D68D-11D0-98BF-00A0C90DC8D9} failed due to the following error: 80040154.
+
+       Source=DC-ImageButton Tutorial
+
+       ErrorCode=-2147221164
+
+       StackTrace:
+
+            at Form1..ctor() in C:\Program Files\Dynamic Components\Image Button\Tutorials\Visual studio 2010\Form1.vb:line 5
+
+       InnerException:
+
+ 
+
+ 
+
+Paul Kerr
+
+ComponentSource
+
+http://www.componentsource.com
+
+ 
+
+From: Maa Ali [mailto:mohamed.alyabbas@gmail.com] 
+Sent: 16 August 2012 17:45
+To: Paul Kerr
+Subject: Re: Two products of EgyFirst Software, Inc.
+
+ 
+
+Hi Paul
+
+Could you please click "Copy exception detail to the clipboard" link and send me the error details as text.
+
+also, do you encounter this problem with FormFlipper too.
+
+Kind Regards,
+
+
+
+On Thu, Aug 16, 2012 at 4:23 PM, Paul Kerr <PaulK@componentsource.com> wrote:
+
+Hi Mohamed,
+
+ 
+
+I’m afraid I’m getting the attached error when running the image Button sample. Do you have any ideas why this is happening?
+
+ 
+
+Thanks,
+
+ 
+
+Paul Kerr
+
+ComponentSource
+
+http://www.componentsource.com
+
+ 
+
+From: Maa Ali [mailto:mohamed.alyabbas@gmail.com] 
+Sent: 15 August 2012 04:28
+To: Paul Kerr
+
+
+Subject: Re: Two products of EgyFirst Software, Inc.
+
+ 
+
+Hi Paul
+
+I have updated both of Image Button and Form Flipper with a VS2010 Tutorial besides the other VS2008.
+
+I have tested tutorials on both of WinXp and Windows 7. They work fine to me.
+
+For FormFlipper you may get it from http://www.mygoldensoft.com/componentsource/FormFlipper.zip
+
+And for ImageButton you may get it from http://www.mygoldensoft.com/componentsource/ImageButton.zip
+
+
+Kind Regards,
+Mohamed Ali
+
+On Wed, Aug 8, 2012 at 3:47 PM, Paul Kerr <PaulK@componentsource.com> wrote:
+
+Hi Mohamed,
+
+ 
+
+I’ve tested Image Button V3.5 and when I run the sample I get the attached error. Can you please take a look and let me know how to see the product running?
+
+ 
+
+I’m using Windows 7 and VS2010.
+
+ 
+
+Thanks,
+
+ 
+
+Paul Kerr
+
+ComponentSource
+
+http://www.componentsource.com
+
+ 
+
+From: Maa Ali [mailto:mohamed.alyabbas@gmail.com] 
+Sent: 02 August 2012 06:02
+To: Paul Kerr
+Subject: Re: Two products of EgyFirst Software, Inc.
+
+ 
+
+Hi Paul
+
+Wish you had a nice holiday. 
+
+regarding, number2text i have already updated on my website to v.3.5 
+
+changes includes:
+1- fixing a  in English language
+2- Number2Text is protected now by AppProtector v.30 instead of v.3.0
+3- Number2text provide more context use of currency by the aid of function setCurrencyMode()
+
+Also I am sending other products 
+
+1- Application Protector V3.5   just published at ComponentSource 
+2- Form Flipper V3.5   First publication at ComponentSource 
+3- Image Button V3.5   First publication at ComponentSource 
+
+You may download the following for each product as zip file
+
+1.       The software (both full retail version and trial version)
+
+2.       A list of 1000 serial numbers for each option
+
+3.       A filled out Product Submission Form (http://www.componentsource.com/psf)
+
+4 - Tutorial and help file
+
+5- How to license the software
+
+For AppProtectr get it from  http://www.mygoldensoft.com/componentsource/AppProtector.zip
+
+For Number2text get it from http://www.mygoldensoft.com/componentsource/Number2Text.zip
+
+For FormFlipper get it from http://www.mygoldensoft.com/componentsource/FormFlipper.zip
+
+For ImageButton get it from http://www.mygoldensoft.com/componentsource/ImageButton.zip
+
+Kind Regards,
+Mohamed A. Abbas
+
+On Wed, Aug 1, 2012 at 11:10 AM, Paul Kerr <PaulK@componentsource.com> wrote:
+
+Hi Mohamed,
+
+ 
+
+I’m just looking at your web site and Number2Text is still listed at V3.
+
+ 
+
+When will you be updating it to V3.5? Also, what’s new in V3.5?
+
+ 
+
+Many thanks,
+
+ 
+
+Paul Kerr
+
+ComponentSource
+
+http://www.componentsource.com
+
+ 
+
+From: Maa Ali [mailto:mohamed.alyabbas@gmail.com] 
+Sent: 24 July 2012 15:28
+To: Paul Kerr
+Subject: Two products of EgyFirst Software, Inc.
+
+ 
+
+Hello Paul
+
+I am sending tow of EgyFirst Software products for receive your assessment
+
+1- Application Protector V3.5   First publication at ComponentSource 
+
+2- Number2Text V3.5 Update of version 3.0 which is already released at ComponentSource
+
+You may download the following for each product as zip file
+
+1.       The software (both full retail version and trial version)
+
+2.       A list of 1000 serial numbers for each option
+
+3.       A filled out Product Submission Form (http://www.componentsource.com/psf)
+
+4 - Tutorial and help file
+
+5- How to license the software
+
+For AppProtectr get it from  http://www.mygoldensoft.com/componentsource/AppProtector.zip
+
+For Number2text get it from http://www.mygoldensoft.com/componentsource/Number2Text.zip
+
+Regards,
+Mohamed A. Abbas
+
+
+
+regsvr32.exe C:\winnt\system32\mts\mtxcatex.dll
+ 
+
+ 
+
+ 

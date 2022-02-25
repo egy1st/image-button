@@ -1,0 +1,30 @@
+[OPTIONS]
+Compatibility=1.1 or later
+Compiled file=DC Image Button v3.5.chm
+Contents file=DataMangerHelp.hhc
+Default topic=Dynamic Components Image Button.htm
+Display compile progress=No
+Full-text search=Yes
+Index file=DataMangerHelp.hhk
+Language=0x409 English (United States)
+Title=DC Image Button Help
+
+
+[FILES]
+contact us.htm
+features.htm
+how to order.htm
+license.htm
+system requirements.htm
+Overview.htm
+Installing Image Button COM.htm
+Deploying Image Button COM Applications.htm
+Including DC Image Button.htm
+Dynamic Components Image Button.htm
+PrepareImageButtons.htm
+AddImageButton.htm
+InitForm.htm
+setRegistrationKey.htm
+
+[INFOTYPES]
+
